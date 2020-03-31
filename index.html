@@ -7,8 +7,37 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>PAGE TITLE</title>
+  <title>Fortune Quiz</title>
 </head>
 <body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Answer some questions and we'll tell you your future.</h2>
+    </div>
+    <form id="pastbehavior">
+      <div class="form-group">
+        <p>In the past year, have you:</p>
+        <input type="checkbox" name="behavior" value="ladder">Walked under a ladder?<br>
+        <input type="checkbox" name="behavior" value="mirror">Broken a mirror?<br>
+        <input type="checkbox" name="behavior" value="crack">Stepped on a crack in the sidewalk?<br>
+        <input type="checkbox" name="behavior" value="cat">Had a black cat cross your path?<br>
+        <input type="checkbox" name="behavior" value="burial">Trespassed on sacred burial grounds?<br>
+        <input type="checkbox" name="behavior" value="deal">Made a deal with a shifty character at a crossroads?<br>
+        <input type="checkbox" name="behavior" value="umbrelaa">Opened an umbrella indoors?<br>
+        <input type="checkbox" name="behavior" value="macbeth">Said "Macbeth" in a theater?<br>
+        <input type="checkbox" name="behavior" value="saltshaker">Tipped over a salt shaker?<br>
+      </div>
+     <button type="submit">Submit Survey</button>
+    </form>
+    <span id="goodbehavior">
+      <p><b>You haven't done done much to anger the dark forces of our universe. Honestly, maybe you should get out there and live a little.</b></p>
+    </span>
+    <span id="okaybehavior">
+      <p><b>You have done some things things to anger the dark forces of our universe. You're walking a tightrope, but as long as you're careful you should be able to get out alive.</b></p>
+    </span>
+    <span id="badbehavior">
+      <p><b>You have done quite a few things to anger the dark forces of our universe. There's not really a lot you can do to rectify the situation, and you're probably having a pretty good time, so keep it up!</b></p>
+    </span>
+  </div>
 </body>
 </html>
